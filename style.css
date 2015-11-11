@@ -1,0 +1,48 @@
+.container,body{
+	height: 100%;
+	width: 100%;
+	
+}
+
+.button-box{
+	height: 100%;
+	width: 75%;
+	background-color: red;
+	position: relative;
+	padding: 3%;
+	display: flex;
+	flex-direction: row;
+
+}
+
+.receipt-box{
+	position: absolute;
+	height: 100%;
+	width: 25%;
+	left: 75%;
+	bottom: 0%;
+	padding: 3%
+	
+}
+
+.order-button{
+	height: 70px;
+	width: 120px;
+	position: relative;
+	border: 3px solid black;
+	text-align: center;
+	background-color: yellow;
+	margin: 2%
+}
+
+.button-text{
+	margin: 0 auto;
+	position: relative;
+	top: 35%
+	
+}
+
+.list-item{
+	list-style: none;
+	font-size: 2em
+}
